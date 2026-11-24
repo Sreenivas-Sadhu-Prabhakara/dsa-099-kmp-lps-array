@@ -12,6 +12,13 @@ The insight: when a match of length k breaks, the text just read ends with the p
 
 **Complexity:** O(n+m) worst case — the adversarial inputs that break Rabin–Karp don't exist here. O(m) space.
 
+## Visual walkthrough
+
+Read the picture top to bottom — each numbered frame is one moment of the algorithm
+running on this repo's test example.
+
+![Step-by-step visual walkthrough](viz.svg)
+
 ## Run
 
     go test ./...   # verify
